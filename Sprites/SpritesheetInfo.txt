@@ -1,0 +1,83 @@
+If a sprite looks weird I either added an unfinished version on accident
+or got the size wrong.
+Follow steps to add assets (reminder for myself):
+    1) Add png
+    2) Update this txt file 
+    3) Add png to download queue in main
+
+Player
+    player_idle_left        256x256     8frames
+    player_idle_right       256x256     8frames
+    player_running_left     320x256     5frames
+    player_running_right    320x256     5frames
+    player_jump_left        512x564     3frames
+    player_jump_right       512x564     3frames
+    player_falling_left     512x564     5frames
+    player_falling_right    512x564     5frames
+
+Reaper
+    reaper_normal           256x256     6frames
+    reaper_strong           256x256     6frames
+    reaper_strong_right     256x256     6frames
+    reaper_attack_right     320x256     6frames
+    reaper_weak             256x256     6frames
+    reaper_attack           320x256     6frames
+
+Molecules
+    molecule_full           256x256     6frames
+    molecule_half           256x256     6frames
+    molecule_low            256x256     5frames
+    molecule_projectile     42x42       6frames
+
+LevelAssets
+    background              2100x1350   1frame
+    cross_background        1400x900    1frame
+    platform_tiny           128x128     1frame
+    platform_small          256x256     1frame
+    platform_large          884x496     1frame
+    platform_ground         700x256     1frame
+    platform_hub            1600x400    1frame
+    workbench               242x194     1frame
+    portal                  364x364     4frames
+    hazard_growth_short     256x256     7frames
+    hazard_growth_tall      256x512     9frames
+    hazard_growth_tall_static 226x1859     1frames
+
+
+    dark_energy             64x64       1frame
+
+Abilities
+    cosmic_blade            1200x1164   4frames
+    soul_grab_right         1024x512    4frames
+    soul_grab_left          1024x512    4frames
+    supersonic              320x256     9frames  
+    supersonic_left         320x256     9frames
+    emp                     1200x1164   7frames
+    astral_beam_left        320x320     10frames
+    astral_beam_right       320x320     10frames
+    atomic_left             256x256     3frames
+    atomic_right            256x256     3frames
+    atomic_projectile       64x64       1frame
+    solar_flare             612x612     13frames
+    solar_flare_hit_box     1920x1080   8frames (NOTE: solar_flare_hit_box animation must be started on solar_flare animation frame 5. Their animation will end together.)
+
+UI
+    DE_UI_Design            1050x675    1frame
+    DE_UI_Design_No_Text    1050x675    1frame
+    title_screen            1920x1080   1frame
+
+DNA
+    dna_basic               116x116     1frame
+    dna_uncommon            116x116     1frame
+    dna_rare                116x116     1frame
+    dna_godly               116x116     1frame
+
+Boss
+    boss_body               512x512     8frames
+    boss_bottom_left_arm    320x320     6frames
+    boss_bottom_right_arm   320x320     6frames
+    boss_top_left_arm       320x320     6frames
+    boss_top_right_arm      320x320     6frames
+    boss_cross              244x270     1frame
+    boss_ring_healing       700x700     1frame
+    boss_ring                  700x700     1frame
